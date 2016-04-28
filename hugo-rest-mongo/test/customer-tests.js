@@ -17,7 +17,7 @@ let userToken;
 
 require('../server');
 
-describe('testing customer-related GET and POST routes', () => {
+describe('test for customer-related GET and POST routes', () => {
   it('should make a new user with given credentials', (done) => {
     request('localhost:3000')
     .post('/createaccount')
